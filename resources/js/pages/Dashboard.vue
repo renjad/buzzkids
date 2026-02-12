@@ -27,47 +27,7 @@ const breadcrumbs: BreadcrumbItem[] = [
     <Head title="Dashboard" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
-        <Select>
-            <SelectTrigger class="w-45">
-                <SelectValue placeholder="Select a fruit" />
-            </SelectTrigger>
-            <SelectContent>
-                <SelectGroup>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                </SelectGroup>
-            </SelectContent>
-        </Select>
-
-        <!-- <div
+        <div
             class="flex h-full flex-1 flex-col gap-4 overflow-x-auto rounded-xl p-4"
         >
             <div class="grid auto-rows-min gap-4 md:grid-cols-3">
@@ -92,6 +52,6 @@ const breadcrumbs: BreadcrumbItem[] = [
             >
                 <PlaceholderPattern />
             </div>
-        </div> -->
+        </div>
     </AppLayout>
 </template>
