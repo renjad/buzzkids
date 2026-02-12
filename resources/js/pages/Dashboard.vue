@@ -5,16 +5,6 @@ import { dashboard } from '@/routes';
 import { type BreadcrumbItem } from '@/types';
 import PlaceholderPattern from '../components/PlaceholderPattern.vue';
 
-import {
-    Select,
-    SelectContent,
-    SelectGroup,
-    SelectItem,
-    SelectLabel,
-    SelectTrigger,
-    SelectValue,
-} from '@/components/ui/select';
-
 const breadcrumbs: BreadcrumbItem[] = [
     {
         title: 'Dashboard',
@@ -27,46 +17,6 @@ const breadcrumbs: BreadcrumbItem[] = [
     <Head title="Dashboard" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
-        <!-- <Select>
-            <SelectTrigger class="w-45">
-                <SelectValue placeholder="Select a fruit" />
-            </SelectTrigger>
-            <SelectContent>
-                <SelectGroup>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                    <SelectItem value="apple"> Apple </SelectItem>
-                    <SelectItem value="banana"> Banana </SelectItem>
-                    <SelectItem value="blueberry"> Blueberry </SelectItem>
-                    <SelectItem value="grapes"> Grapes </SelectItem>
-                    <SelectItem value="pineapple"> Pineapple </SelectItem>
-                </SelectGroup>
-            </SelectContent>
-        </Select> -->
-
         <div
             class="flex h-full flex-1 flex-col gap-4 overflow-x-auto rounded-xl p-4"
         >
