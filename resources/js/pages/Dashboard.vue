@@ -5,16 +5,6 @@ import { dashboard } from '@/routes';
 import { type BreadcrumbItem } from '@/types';
 import PlaceholderPattern from '../components/PlaceholderPattern.vue';
 
-import {
-    Select,
-    SelectContent,
-    SelectGroup,
-    SelectItem,
-    SelectLabel,
-    SelectTrigger,
-    SelectValue,
-} from '@/components/ui/select';
-
 const breadcrumbs: BreadcrumbItem[] = [
     {
         title: 'Dashboard',
